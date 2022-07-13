@@ -1,0 +1,11 @@
+site_name: XXX
+theme: material
+nav:
+  - Page A: page_a.md
+  - Page B: folder_a/page_a.md
+  - Section:
+    - A: folder_b/page_a.md
+    - B: folder_b/page_b.md
+    - C: folder_b/page_b.md
+markdown_extensions:
+  - attr_list

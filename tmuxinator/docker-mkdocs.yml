@@ -1,0 +1,13 @@
+name: docker-mkdocs
+root: /home/git/docker/docker-mkdocs
+
+windows:
+  - build: >
+      clear ;
+      sleep 0.2 ;
+      echo Build the site with 010...
+
+  - serve: >
+      clear ;
+      sleep 0.2 ;
+      echo Serve the site with 020...
